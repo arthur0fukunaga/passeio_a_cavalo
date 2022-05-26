@@ -1,0 +1,29 @@
+body{
+    background-color: #8B4513;
+}
+#anima-div{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 0%;
+    animation: mov-div 30s infinite ;
+}
+@keyframes mov-div {
+    0%{top: 0px;left: 0px;}
+    5%{top: 000px;left: 70px;}
+    10%{top: 140px;left: 70px;}
+    15%{top: 140px;left: 140px;}
+    20%{top: 290px;left: 140px;}
+    25%{top: 290px;left: 210px;}
+    30%{top: 435px;left: 210px;}
+    35%{top: 430px;left: 350px;}
+    40%{top: 505px;left: 350px;}
+    45%{top: 430px;left: 350px;}
+    50%{top: 430px;left: 210px;}
+    55%{top: 290px;left: 210px;}
+    60%{top: 290px;left: 140px;}
+    65%{top: 140px;left: 140px;}
+    70%{top: 140px;left: 70px;}
+    75%{top: 0px;left: 70px;}
+    80%{top: 0px;left: 0px;}
+}
